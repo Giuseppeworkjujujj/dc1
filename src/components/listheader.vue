@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <ul>
-    <li :src="lista.text">{{ lista.text }}</li>
-  </ul>
+  <div class="col-6 j1 ">
+    <ul src="lista.text"><li class="listato">{{ lista.text }}  </li></ul>
   <!-- <p>{{ immagine }}</p> -->
 </div>
 </template>
@@ -20,8 +18,19 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-img{
-  width: 200px;
+<style lang='scss' scoped>
+.j1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .listato{
+    display: inline;
+    list-style: none;
+    // float: inline-end;
+    // float:inline-start;
+    margin-right: 15px;
+    height: 20px;
+    padding-left: 10px;
+  }
 }
 </style>
