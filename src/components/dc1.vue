@@ -1,19 +1,25 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <p>dfcsd</p>
+      <div class="col-12 prima-riga">
+        <listheader v-for="(lista, index) in liste" :key="index" :lista="lista"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import Fumetti from '@/data/Fumetti.js'
+import listheader from '@/components/listheader.vue'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HelloNorld',
   components: {
+    listheader,
   },
   data(){
     return{
+      liste: Fumetti.headerLinks
     }
   }
 }
@@ -21,7 +27,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* div{
-  height: 200px;
-} */
+  .prima-riga{
+    width: 100%;
+    height: 70px;
+    border: 2px solid red;
+    position: relative;
+    margin-top: 0px;
+  }
 </style>

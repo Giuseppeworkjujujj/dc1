@@ -1,6 +1,8 @@
 <template>
   <div>
-    <img :src="immagine2.thumb" :alt="immagine2.series">
+    <ul>
+    <li :src="lista.text">{{ lista.text }}</li>
+  </ul>
   <!-- <p>{{ immagine }}</p> -->
 </div>
 </template>
@@ -9,15 +11,17 @@
 
 export default {
   props:[
-   "immagine2"
+   "lista"
 
   ],
-  name: 'HelloCorld',
+  name: 'HelloPorld',
  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+img{
+  width: 200px;
+}
 </style>

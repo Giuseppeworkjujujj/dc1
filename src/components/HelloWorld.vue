@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="container-fluid"> -->
-    <div class="row">
+    <div class="row-3">
       <div class="col-6">
         <rigaimg v-for="(immagine, index) in immagini" :key="index" :immagine="immagine"/>
       </div>
@@ -35,7 +35,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* div{
-  height: 200px;
-} */
+.row-3{
+  height: 100px;
+  width: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: 70px;
+}
 </style>
