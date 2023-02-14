@@ -34,15 +34,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
 .row-3{
-  height: 500px;
+  height: 600px;
   width: 100%;
 
   background-color: #202328;
 .ig1 , .ig2{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  height: 250px;
+  align-items:center;
+  height: 300px;
 }
 }
 </style>

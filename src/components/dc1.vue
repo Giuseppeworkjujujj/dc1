@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row-1 ">
-      <div class="col-7 d-flex align-items-center seconda-riga">
+      <div class="col-6 d-flex align-items-center seconda-riga">
         <img src="../assets/dc-logo.png" alt="">
       </div>
-      <div class="col-5 prima-riga d-flex align-items-center">
+      <div class="col-6 prima-riga d-flex justify-content-end align-items-center">
         <listheader v-for="(lista, index) in liste" :lista="lista" :key="index" />
       </div>
     </div>
@@ -44,9 +44,11 @@ export default {
 }
   .prima-riga{
     height: 70px;
+    // border: 2px solid red;
+    // word-wrap: break-word;
     // float: right;
-    position: absolute;
-    right: 50px;
+    // position: absolute;
+    // right: 50px;
   }
 }
 }

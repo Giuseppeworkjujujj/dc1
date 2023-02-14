@@ -22,7 +22,7 @@ export default {
 .jj{
   display: inline;
   img{
-    height: 200px;
+    height: 250px;
   }
 }
 </style>
