@@ -34,7 +34,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
 .row-3{
-  height: 600px;
+  height: 740px;
   width: 100%;
 
   background-color: #202328;
@@ -42,7 +42,7 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items:center;
-  height: 300px;
+  height: 360px;
 }
 }
 </style>

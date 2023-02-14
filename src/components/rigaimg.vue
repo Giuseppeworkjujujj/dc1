@@ -22,7 +22,7 @@ export default {
 .jk{
   display: inline;
   img{
-    height: 250px;
+    height: 300px;
   }
 }
 </style>
