@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <HelloWorld/>
     <dc1/>
+    <dc2/>
+    <HelloWorld/>
+    <dc3/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import dc1 from './components/dc1.vue'
+import dc2 from './components/dc2.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import dc3 from './components/dc3.vue'
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     dc1,
+    dc2,
+    HelloWorld,
+    dc3,
   }
 }
 </script>

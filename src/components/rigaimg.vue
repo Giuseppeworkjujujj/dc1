@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="jk">
     <img :src="immagine.thumb" :alt="immagine.series">
   <!-- <p>{{ immagine }}</p> -->
 </div>
@@ -18,6 +18,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang='scss' scoped>
+.jk{
+  display: inline;
+  img{
+    height: 200px;
+  }
+}
 </style>

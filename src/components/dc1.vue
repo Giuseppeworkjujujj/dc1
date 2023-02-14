@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
-    <div class="row-2">
-      <div class="col-6 seconda-riga">
-        <img src="../" alt="">
+    <div class="row-1 ">
+      <div class="col-7 d-flex align-items-center seconda-riga">
+        <img src="../assets/dc-logo.png" alt="">
       </div>
-      <div class="col-6 prima-riga">
+      <div class="col-5 prima-riga d-flex align-items-center">
         <listheader v-for="(lista, index) in liste" :lista="lista" :key="index" />
       </div>
     </div>
@@ -30,23 +30,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
-.row-2{
+.container-fluid{
   position: relative;
+.row-1{
+  height: 70px;
 .seconda-riga{
-  border: 2px solid blue;
   height: 70px;
   float: left;
-  width: 70%;
+  img{
+    width: 60px;
+    margin-left: 20px;
+  }
 }
   .prima-riga{
-    width: 30%;
     height: 70px;
-    border: 2px solid red;
-    /* position: relative; */
-    margin-top: 0px;
-    display: inline-flex;
-    float: right;
-    
+    // float: right;
+    position: absolute;
+    right: 50px;
   }
+}
 }
 </style>

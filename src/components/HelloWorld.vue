@@ -1,14 +1,12 @@
 <template>
-  <!-- <div class="container-fluid"> -->
     <div class="row-3">
-      <div class="col-6">
+      <div class="col-12 ig1">
         <rigaimg v-for="(immagine, index) in immagini" :key="index" :immagine="immagine"/>
       </div>
-      <div class="col-6">
+      <div class="col-12 ig2">
         <rigaimg1 v-for="(immagine2, index) in immagini2" :key="index" :immagine2="immagine2"/>
       </div>
     </div>
-  <!-- </div> -->
 </template>
 
 <script>
@@ -34,12 +32,17 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang='scss' scoped>
 .row-3{
-  height: 100px;
+  height: 500px;
   width: 100%;
-  border: 2px solid black;
-  position: absolute;
-  top: 70px;
+
+  background-color: #202328;
+.ig1 , .ig2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
 }
 </style>
