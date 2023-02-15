@@ -2,6 +2,7 @@
   <div id="app">
     <dc0/>
     <dc1/>
+    <nasc/>
     <dc2/>
     <HelloWorld/>
     <dc3/>
@@ -18,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import dc3 from './components/dc3.vue'
 import dc4 from './components/dc4.vue'
 import dc5 from './components/dc5.vue'
+import nasc from './components/nasc.vue'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -32,6 +34,7 @@ export default {
     dc3,
     dc4,
     dc5,
+    nasc,
   }
 }
 </script>
