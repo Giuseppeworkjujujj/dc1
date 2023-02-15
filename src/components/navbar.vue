@@ -29,18 +29,10 @@ export default {
     
   }
 .row-f{
-  border: 5px solid black;
   width: 100%;
   height: 35px;
-  background-color: aquamarine;
-
-
-
 .ff{
-  border: 2px solid red;
   text-align: center;
-    // display: none;
-
 }
 }
 .ff:hover{

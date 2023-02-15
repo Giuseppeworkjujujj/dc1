@@ -22,7 +22,7 @@ export default {
   data(){
     return{
       liste: Fumetti.headerLinks,
-      isVisible: true
+      isVisible: false
 
     };
   },
@@ -40,21 +40,22 @@ hideOrShow() {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
-
+.ret{
+  display: none;
+}
 
 @media screen and (max-width:768px){
   .ret{
+    display: flex;
     position: absolute;
     top: 0px;
     right: 5px;
   }
   .row-n{
     display: flex;
-
+    transition: all .2s ease;
 .qq{
-  border: 2px solid green;
   width: 100%;
-
 }
   }
 }

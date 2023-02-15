@@ -25,17 +25,10 @@ export default {
   }
   @media screen and (max-width:768px){
   .topo{
-    // width: 100%;
     border: 2px solid blue;
-  //   display: flex;
-  //   justify-content: center;
-  // align-items: flex-start;
     display: none;
   .listato{
     display: none;  border: 2px solid red;
-  // display: flex;
-  // justify-content: center;
-  // align-items: flex-start;
   }
 }
   }

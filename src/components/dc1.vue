@@ -2,7 +2,6 @@
     <div class="row-1 ">
       <div class="col-7 col-xs-12 d-flex align-items-center seconda-riga">
         <img src="../assets/dc-logo.png" alt="">
-        <button class="ree">Cerca</button>
       </div>
       <div class="col-5 prima-riga d-flex justify-content-start align-items-center">
         <listheader v-for="(lista, index) in liste" :lista="lista" :key="index" />
@@ -33,10 +32,6 @@ export default {
 
 .row-1{
   height: 70px;
-  // .ree{
-  //   // display: none;
-  // }
-  
  .ree:checked ~ .ff{
   max-height: 240px;
  }
