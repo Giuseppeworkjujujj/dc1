@@ -10,7 +10,7 @@
       <img src="../assets/footer-pinterest.png" alt="">
       <img src="../assets/footer-periscope.png" alt="">
     </div>
-    .col-2
+    
   </div>
 </template>
 
@@ -45,6 +45,34 @@ button{
 img{
   height: 30px;
 }
+}
+}
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+.row-6{
+  display: flex;
+  justify-content: center;
+  .iu{
+    display: none;
+  }
+  .ui{
+    width: 80%;
+    .img{
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+    // -ms-transform : 1.2s ease; /* IE */
+  }
+  img:hover{
+    transform : scale(1.9);
+    -moz-transform : scale(1.9); /* Firefox */
+    -webkit-transform : scale(1.9); /* Chrome - Safari */
+    -o-transform : scale(1.9); /* Opera */
+    // -ms-transform : scale(1.3); /* IE */
+  }
+  }
 }
 }
 </style>

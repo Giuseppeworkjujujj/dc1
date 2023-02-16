@@ -125,4 +125,11 @@ export default {
   background-position: left;
   }
 }
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+.row-5{
+  display: none;
+}
+}
 </style>

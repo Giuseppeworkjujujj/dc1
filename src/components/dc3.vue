@@ -53,4 +53,11 @@ export default {
   }
 }
 }
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+.row-4{
+  display: none;
+}
+}
 </style>

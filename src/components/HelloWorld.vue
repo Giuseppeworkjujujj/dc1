@@ -45,4 +45,22 @@ export default {
   height: 360px;
 }
 }
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+  .row-3{
+    width: 100%;
+    height: 100%;
+    .ig1{
+      border: 2px solid red;
+      height: 100%;
+      display:contents;
+    }
+    .ig2{
+      // display: none;
+      height: 100%;
+      display:contents;
+    }
+  }
+}
 </style>

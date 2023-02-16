@@ -40,5 +40,11 @@ export default {
 }
 
   @media screen and (max-width:768px){
+.ff{
+  border: 2px solid red;
+  height: 100%;
+  line-height: -5px;
   }
+  
+}
 </style>

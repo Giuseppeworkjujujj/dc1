@@ -25,4 +25,29 @@ export default {
     height: 300px;
   }
 }
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+  .jk{
+    display:flex;
+    justify-content: center;
+  img{
+    height: 300px;
+    border-radius: 10%;
+    margin:50px;
+    transition: 0.3s ease;
+    -moz-transition: 0.3 ease; /* Firefox */
+    -webkit-transition: 0.3s ease; /* Chrome - Safari */
+    -o-transition: 0.3s ease; /* Opera */
+    // -ms-transform : 1.2s ease; /* IE */
+  }
+  img:hover{
+    transform : scale(1.2);
+    -moz-transform : scale(1.2); /* Firefox */
+    -webkit-transform : scale(1.2); /* Chrome - Safari */
+    -o-transform : scale(1.2); /* Opera */
+    // -ms-transform : scale(1.3); /* IE */
+  }
+  }
+}
 </style>

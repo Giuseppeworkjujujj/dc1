@@ -24,6 +24,7 @@ export default {
   background-size:cover;
   background-repeat:no-repeat;
   background-position: left top right;
+  
 .scrt{
   background-color: rgba(0,0,0,0.6);
   width: 100%;
@@ -42,5 +43,8 @@ export default {
     }
   }
 }
+}
+@media screen and (max-width:768px){
+  
 }
 </style>
