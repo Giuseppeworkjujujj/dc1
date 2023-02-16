@@ -1,7 +1,7 @@
 <template>
   <span class="riga">
   <div class="row-f">
-    <div class="col-12 ff nascondi" id="contenuto" src="nac.text">{{ nav.text }}</div>
+    <div class="col-12 ff nascondi" id="contenuto" src="nac.text"><p>{{ nav.text }}</p></div>
   </div>
 </span>
 </template>
@@ -33,15 +33,19 @@ export default {
   height: 35px;
 .ff{
   text-align: center;
+  p{color: black;}
+  p:hover{
+    color:  #0082FA;
+  }
 }
 }
-.ff:hover{
-  background-color: gray;
-}
+// .ff:hover{
+//   background-color: gray;
+// }
 
   @media screen and (max-width:768px){
 .ff{
-  border: 2px solid red;
+  // border: 2px solid red;
   height: 100%;
   line-height: -5px;
   }
