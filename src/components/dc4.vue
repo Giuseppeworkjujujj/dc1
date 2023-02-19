@@ -125,7 +125,31 @@ export default {
   background-position: left;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:890px){
+  .row-5{
+    .jk{
+      display: none;
+    }
+    .kj{
+      width: 50%;
+      .ones{
+        // margin-left: 10px;
+      }
+      .dose{
+        float: right;
+        margin-top: -168px;
+        margin-right: 10px;
+        // position: absolute;
+        // top: 5px;
+      }
+    }
+    .pk{
+      width: 25%;
+    }
+    .nk{
+      width: 25%;
+    }
+  }
 }
 @media screen and (max-width:600px){
 .row-5{

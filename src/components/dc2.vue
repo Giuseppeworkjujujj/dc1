@@ -44,7 +44,7 @@ export default {
   }
 }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1150px){
   
 }
 </style>

@@ -43,7 +43,7 @@ export default {
 //   background-color: gray;
 // }
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width:890px){
 .ff{
   // border: 2px solid red;
   height: 100%;

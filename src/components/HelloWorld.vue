@@ -45,8 +45,35 @@ export default {
   height: 360px;
 }
 }
-@media screen and (max-width:768px){
-}
+@media screen and (max-width:890px){
+  .row-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  
+    .ig1{
+      width: 90%;
+      // border: 2px solid red;
+      height: 100%;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      
+    }
+    .ig2{
+      // border: 2px solid red;
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      
+    }}
+  }
+
 @media screen and (max-width:600px){
   .row-3{
     width: 100%;

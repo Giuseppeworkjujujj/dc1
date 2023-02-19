@@ -23,7 +23,7 @@ export default {
     height: 20px;
     padding-left: 0px;
   }
-  @media screen and (max-width:768px){
+  @media screen and (max-width:890px){
   .topo{
     border: 2px solid blue;
     display: none;

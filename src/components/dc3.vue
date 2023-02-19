@@ -53,7 +53,12 @@ export default {
   }
 }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:890px){
+  .row-4{
+    p{
+      display: none;
+    }
+  }
 }
 @media screen and (max-width:600px){
 .row-4{
