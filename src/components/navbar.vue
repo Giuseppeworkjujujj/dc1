@@ -34,6 +34,7 @@ export default {
 .ff{
   text-align: center;
   p{color: black;}
+  cursor: pointer;
   p:hover{
     color:  #0082FA;
   }

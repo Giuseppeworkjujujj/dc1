@@ -44,7 +44,33 @@ export default {
   }
 }
 }
-@media screen and (max-width:1150px){
-  
+@media screen and (max-width:890px){
+  .row-2{
+    .scrt{
+  .scritta{
+    width: 100%;
+
+    p{
+      width: 60%;
+      margin: auto;
+    }
+  }
+}
+}
+}
+@media screen and (max-width:600px){
+  .row-2{
+    .scrt{
+  .scritta{
+    width: 80%;
+    top:200px;
+
+    p{
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
+}
 }
 </style>
